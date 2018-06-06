@@ -1,0 +1,254 @@
+=== npm audit security report ===                        
+                                                                                
+# Run  npm install --save-dev karma@2.0.2  to resolve 12 vulnerabilities
+SEMVER WARNING: Recommended action is a potentially breaking change
+                                                                                
+  Low             Regular Expression Denial of Service                          
+                                                                                
+  Package         debug                                                         
+                                                                                
+  Dependency of   karma [dev]                                                   
+                                                                                
+  Path            karma > socket.io > debug                                     
+                                                                                
+  More info       https://nodesecurity.io/advisories/534                        
+                                                                                
+
+
+                                                                                
+  Low             Regular Expression Denial of Service                          
+                                                                                
+  Package         debug                                                         
+                                                                                
+  Dependency of   karma [dev]                                                   
+                                                                                
+  Path            karma > socket.io > engine.io > debug                         
+                                                                                
+  More info       https://nodesecurity.io/advisories/534                        
+                                                                                
+
+
+                                                                                
+  Low             Regular Expression Denial of Service                          
+                                                                                
+  Package         debug                                                         
+                                                                                
+  Dependency of   karma [dev]                                                   
+                                                                                
+  Path            karma > socket.io > socket.io-adapter > debug                 
+                                                                                
+  More info       https://nodesecurity.io/advisories/534                        
+                                                                                
+
+
+                                                                                
+  Low             Regular Expression Denial of Service                          
+                                                                                
+  Package         debug                                                         
+                                                                                
+  Dependency of   karma [dev]                                                   
+                                                                                
+  Path            karma > socket.io > socket.io-client > debug                  
+                                                                                
+  More info       https://nodesecurity.io/advisories/534                        
+                                                                                
+
+
+                                                                                
+  Low             Regular Expression Denial of Service                          
+                                                                                
+  Package         debug                                                         
+                                                                                
+  Dependency of   karma [dev]                                                   
+                                                                                
+  Path            karma > socket.io > socket.io-client > engine.io-client >     
+                  debug                                                         
+                                                                                
+  More info       https://nodesecurity.io/advisories/534                        
+                                                                                
+
+
+                                                                                
+  Low             Regular Expression Denial of Service                          
+                                                                                
+  Package         debug                                                         
+                                                                                
+  Dependency of   karma [dev]                                                   
+                                                                                
+  Path            karma > socket.io > socket.io-adapter > socket.io-parser >    
+                  debug                                                         
+                                                                                
+  More info       https://nodesecurity.io/advisories/534                        
+                                                                                
+
+
+                                                                                
+  Low             Regular Expression Denial of Service                          
+                                                                                
+  Package         debug                                                         
+                                                                                
+  Dependency of   karma [dev]                                                   
+                                                                                
+  Path            karma > socket.io > socket.io-client > socket.io-parser >     
+                  debug                                                         
+                                                                                
+  More info       https://nodesecurity.io/advisories/534                        
+                                                                                
+
+
+                                                                                
+  Low             Regular Expression Denial of Service                          
+                                                                                
+  Package         debug                                                         
+                                                                                
+  Dependency of   karma [dev]                                                   
+                                                                                
+  Path            karma > socket.io > socket.io-parser > debug                  
+                                                                                
+  More info       https://nodesecurity.io/advisories/534                        
+                                                                                
+
+
+                                                                                
+  Low             Prototype Pollution                                           
+                                                                                
+  Package         lodash                                                        
+                                                                                
+  Dependency of   karma [dev]                                                   
+                                                                                
+  Path            karma > lodash                                                
+                                                                                
+  More info       https://nodesecurity.io/advisories/577                        
+                                                                                
+
+
+                                                                                
+  High            Denial of Service                                             
+                                                                                
+  Package         ws                                                            
+                                                                                
+  Dependency of   karma [dev]                                                   
+                                                                                
+  Path            karma > socket.io > engine.io > ws                            
+                                                                                
+  More info       https://nodesecurity.io/advisories/550                        
+                                                                                
+
+
+                                                                                
+  High            Denial of Service                                             
+                                                                                
+  Package         ws                                                            
+                                                                                
+  Dependency of   karma [dev]                                                   
+                                                                                
+  Path            karma > socket.io > socket.io-client > engine.io-client > ws  
+                                                                                
+  More info       https://nodesecurity.io/advisories/550                        
+                                                                                
+
+
+                                                                                
+  High            Regular Expression Denial of Service                          
+                                                                                
+  Package         parsejson                                                     
+                                                                                
+  Dependency of   karma [dev]                                                   
+                                                                                
+  Path            karma > socket.io > socket.io-client > engine.io-client >     
+                  parsejson                                                     
+                                                                                
+  More info       https://nodesecurity.io/advisories/528                        
+                                                                                
+
+
+# Run  npm update ws --depth 4  to resolve 1 vulnerability
+                                                                                
+  High            Denial of Service                                             
+                                                                                
+  Package         ws                                                            
+                                                                                
+  Dependency of   protractor [dev]                                              
+                                                                                
+  Path            protractor > webdriver-js-extender > selenium-webdriver > ws  
+                                                                                
+  More info       https://nodesecurity.io/advisories/550                        
+                                                                                
+
+
+                                                                                
+                                 Manual Review                                  
+             Some vulnerabilities require your attention to resolve             
+                                                                                
+          Visit https://go.npm.me/audit-guide for additional guidance           
+                                                                                
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3                                   
+                                                                                
+  Dependency of   ng-packagr [dev]                                              
+                                                                                
+  Path            ng-packagr > node-sass > request > hawk > boom > hoek         
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3                                   
+                                                                                
+  Dependency of   ng-packagr [dev]                                              
+                                                                                
+  Path            ng-packagr > node-sass > request > hawk > cryptiles > boom >  
+                  hoek                                                          
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3                                   
+                                                                                
+  Dependency of   ng-packagr [dev]                                              
+                                                                                
+  Path            ng-packagr > node-sass > request > hawk > hoek                
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+                                                                                
+  Moderate        Prototype pollution                                           
+                                                                                
+  Package         hoek                                                          
+                                                                                
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3                                   
+                                                                                
+  Dependency of   ng-packagr [dev]                                              
+                                                                                
+  Path            ng-packagr > node-sass > request > hawk > sntp > hoek         
+                                                                                
+  More info       https://nodesecurity.io/advisories/566                        
+                                                                                
+                                                                                
+  Moderate        Memory Exposure                                               
+                                                                                
+  Package         tunnel-agent                                                  
+                                                                                
+  Patched in      >=0.6.0                                                       
+                                                                                
+  Dependency of   ng-packagr [dev]                                              
+                                                                                
+  Path            ng-packagr > node-sass > request > tunnel-agent               
+                                                                                
+  More info       https://nodesecurity.io/advisories/598                        
+                                                                                
+found 18 vulnerabilities (9 low, 5 moderate, 4 high) in 25571 scanned packages
+  run `npm audit fix` to fix 1 of them.
+  12 vulnerabilities require semver-major dependency updates.
+  5 vulnerabilities require manual review. See the full report for details.
