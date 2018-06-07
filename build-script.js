@@ -1,4 +1,6 @@
+// Set your lib name here
 const libName = 'ng6-lib';
+
 const fs = require('fs-extra');
 const concat = require('concat');    
 
