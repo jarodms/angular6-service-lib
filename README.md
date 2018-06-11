@@ -2,7 +2,15 @@
 
 Reference: https://blog.angularindepth.com/creating-a-library-in-angular-6-87799552e7e5
 
-`npm run package` will build and package the ng6-lib to a TGZ, placing the final output to the lib folder (not sure where to put this yet)
+`npm run package` will build and package the ng6-lib to a TGZ, placing the final output to the __../dist__ folder (not sure where to put this yet)
+
+
+Within the Angular project you are using this in, run:
+
+`npm uninstall ng6-lib`
+
+`npm install ../dist/ng6-lib-0.0.1.tgz`
+
 
 
 # Ng6LibApp
